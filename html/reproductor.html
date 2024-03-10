@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Vinyl - Reproductor</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="barra_izquierda">
+            <div class="icono-barra-izquierda"></div>
+            <li>
+                <a href="./index.html"><img src="../public/home-vertical.svg" alt="home-vertical"></a>
+            </li>
+            <li>
+                <a href="../html/library.html"><img src="../public/library-vertical.svg" alt="library-vertical"></a>
+            </li>
+            <li>
+                <a href="../html/browse.html"><img src="../public/browse.svg" alt="browse"></a>
+            </li>
+        </ul>
+    </nav>
+    <main class="fondo">
+        <div class="carousel">
+            <ul class="carousel-list">
+                <li class="roulete__item"><img src="../assets/img/DojaCat4.jpeg" alt="album1"></li>
+            </ul>
+        </div>
+        <section class="reproductor">
+            <div class="container">
+                <h1>Song</h1>
+                <div id="current_time">
+                    0:00
+                </div>
+                <div class="buttons">
+                    <button id="prev"></button> <button id="play"></button> <button id="next"></button>
+                </div>
+                <div id="current_audio"></div>
+                <div class="progress_container">
+                    <div id="progress"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Vinyl Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha384-dmLqD6eZq5szA11tuKzrSb7z3fnNcZ9twF+G1qqdQ4/1WhAz6bhE3BrJQfdlLCKZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo__img">
+                <a href="./index.html"><img src="../assets/img/Logo.png" alt="Logo"></a>
+            </div>
+            <ul class="barra_izquierda">
+                <div class="icono-barra-izquierda"></div>
+                <li>
+                    <a href="./index.html"><img src="../public/home-vertical.svg" alt="home-vertical"></a>
+                </li>
+                <li>
+                    <a href="../html/library.html"><img src="../public/library-vertical.svg" alt="library-vertical"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="../public/browse.svg" alt="browse"></a>
+                </li>
+            </ul>
+            <form action="">
+                <input type="text" placeholder="Search">
+            </form>
+            <div class="login">
+                <a href="./Sing%20in.html">Log In</a> <a href="./Sing%20in.html">Sing Up</a>
+            </div>
+        </nav>
+        <div class="player__album"><img src="../assets/img/GUN%20-%20DOJA%20CAT.png" class="album-megan" loading="lazy"
+                alt="GUN%20-%20DOJA%20CAT"></div>
+        <section class="reproductor">
+            <div class="container">
+                <h1>Song</h1>
+                <div id="current_time">
+                    0:00
+                </div>
+                <div class="buttons">
+                    <button id="prev"></button> <button id="play"></button> <button id="next"></button>
+                </div>
+                <div id="current_audio"></div>
+                <div class="progress_container">
+                    <div id="progress"></div>
+                </div>
+            </div>
+        </section>
+        <script src="../js/scripts.js"></script>
+    </header>
+    <main>
+        <section class="recently-search">
+            <h2>Recently Searched</h2>
+            <div class="recently-searched-container">
+                <div class="recently-searched__item">
+                    <img src="../assets/img/GUN%20-%20DOJA%20CAT.png" alt="Doja Cat - Planet Her">
+                    <h3>GUN</h3>
+                    <h4>Doja cat - Scarlet</h4>
+                </div>
+                <div class="recently-searched-item">
+                    <img src="../assets/img/VIGILANTE%20SHIT%20-%20TAYLOR%20SWIFT.png" alt="Doja Cat - Hot Pink">
+                    <h3>Vigilante Shit</h3>
+                    <h4>Taylor Swift - Midnights</h4>
+                </div>
+            </div>
+        </section>
+        <section class="browse-category">
+            <h2>Browse Categories</h2>
+            <div class="browse-container">
+                <div class="browse-item">
+                    <img src="../assets/img/pop.png" alt="pop">
+                    <h3>POP</h3>
+                </div>
+                <div class="browse-item">
+                    <img src="../assets/img/trainin.png" alt="trainin">
+                    <h3>TRAINING</h3>
+                </div>
+                <div class="browse-item">
+                    <img src="../assets/img/Carnaval.png" alt="Carnaval">
+                    <h3>CARNAVAL</h3>
+                </div>
+                <div class="browse-item">
+                    <img src="../assets/img/Relaxing.png" alt="Relaxing">
+                    <h3>RELAXING</h3>
+                </div>
+                <div class="browse-item">
+                    <img src="../assets/img/Indie.png" alt="Indie">
+                    <h3>INDIE</h3>
+                </div>
+                <div class="browse-item">
+                    <img src="../assets/img/Urban.png" alt="Urban">
+                    <h3>URBAN</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        @Copyright 2024 &nbsp;&nbsp;&nbsp; <a href="#">Help</a> &nbsp;&nbsp;&nbsp; <a href="#">Privacy</a>
+        &nbsp;&nbsp;&nbsp; <a href="#">Terms</a>
+        <div class="social-icons">
+            <a href="#"><img src="../public/facebook.svg" alt="Facebook"></a> <a href="#"><img
+                    src="../public/instagram.svg" alt="Instagram"></a> <a href="#"><img src="../public/x.svg"
+                    alt="X"></a>
+        </div>
+        <div>
+            <select id="language-selector">
+                <option value="es">
+                    Español
+                </option>
+                <option value="en">
+                    English
+                </option>
+            </select>
+        </div>
+    </footer>
+</body>
+
+</html>

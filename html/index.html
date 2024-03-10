@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Vinyl Music</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../assets/img/Logo16x16.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="../assets/img/Logo.png" alt="Logo">
+            <ul class="index">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="./library.html">Library</a>
+                </li>
+                <li>
+                    <a href="./browse.html">Browse</a>
+                </li>
+            </ul>
+            <form action="">
+                <input type="text" placeholder="Search"> <button type="submit">Search</button>
+            </form>
+            <div class="login">
+                <a href="./Sing%20in.html">Log In</a> <a href="./Sing%20in.html">Sing Up</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- agregar link para la weekly y crear weekly en figma -->
+            <div class="weekly-text">
+                <h1>Weekly Recommendations</h1>
+            </div>
+            <div class="weekly-imagen"><img src="../assets/img/Home/Speak_Now_TV_cover.jpg" alt="Speak_Now_TV_cover">
+            </div>
+        </section>
+        <section>
+            <div class="new-text">
+                <h2>New Releases</h2>
+            </div><!-- agrgar href para el <a> y hacer la pagina de cada album -->
+            <div class="carousel">
+                <button class="prev"><img src="../public/preview.svg" alt="preview"></button>
+                <div class="slide">
+                    <a href="./reproductor.html"><img src="../assets/img/Home/DojaCat4.jpeg" alt="Image 1"></a>
+                </div>
+                <div class="slide"><img src="../assets/img/Home/Album%20Olivia.png" alt="Image 2"></div>
+                <div class="slide"><img src="../assets/img/Home/Album-megan.jpg" alt="Image 3"></div>
+                <div class="slide"><img src="../assets/img/Home/emilia-album.jpeg" alt="Image 4"></div>
+                <div class="slide"><img src="../assets/img/Home/SZA.png" alt="Image 5"></div><button class="next"><img
+                        src="../public/next.svg" alt="next"></button>
+            </div><!-- cambiar foto del album sza -->
+        </section>
+        <section>
+            <div class="charts-text">
+                <h2><a>Charts</a></h2>
+            </div>
+            <div class="img-charts"><img src="../assets/img/Home/Doja%20Charts.png" alt="Doja%20Charts"></div>
+        </section>
+        <section>
+            <div class="hits-text">
+                <h2><a>Hits</a></h2>
+            </div>
+            <div class="img-hits"><img src="../assets/img/Home/Ariana%20Hits.png" alt="Ariana%20Hits"></div>
+        </section>
+        <section>
+            <div class="radio-doja-text">
+                <h2><a>Doja Cat Radio</a></h2>
+            </div>
+            <div class="doja-cat-img"><img src="../assets/img/Home/Eclipse%20Doja%20Cat%20Radio.png"
+                    alt="Eclipse%20Doja%20Cat%20Radio"></div>
+            <div class="doja-cat-img-eclipse"><img src="../assets/img/Home/Gradient%20Doja%20cat%20radio.png"
+                    alt="Gradient%20Doja%20cat%20radio"></div>
+        </section>
+        <section class="Playlist">
+            <div class="playlist-text">
+                <h2><a>Playlists</a></h2>
+            </div>
+            <div class="playlist-img"><img src="../assets/img/Home/Playlist%20Mind%20Blown.png"
+                    alt="Playlist%20Mind%20Blown"> <img src="../assets/img/Home/Playlist%20Trekking.png"
+                    alt="Playlist%20Trekking"> <img src="../assets/img/Home/Chill%20Mix.png" alt="Chill%20Mix"> <img
+                    src="../assets/img/Home/Playlist%20Radio%20Jazz.png" alt="Playlist%20Radio%20Jazz"> <img
+                    src="../assets/img/Home/Playlist%20Teen%20Spirit.png" alt="Playlist%20Teen%20Spirit"> <img
+                    src="../assets/img/Home/Playlist%20Electro%20house.png" alt="Playlist%20Electro%20house"> <img
+                    src="../assets/img/Home/Blind.png" alt="Blind"></div><!-- Eliminar la palabra Blind de la imagen -->
+        </section>
+    </main>
+    <footer>
+        @Copyright 2024 &nbsp;&nbsp;&nbsp; <a href="#">Help</a> &nbsp;&nbsp;&nbsp; <a href="#">Privacy</a>
+        &nbsp;&nbsp;&nbsp; <a href="#">Terms</a>
+        <div class="social-icons">
+            <a href="#"><img src="../public/facebook.svg" alt="Facebook"></a> <a href="#"><img
+                    src="../public/instagram.svg" alt="Instagram"></a> <a href="#"><img src="../public/x.svg"
+                    alt="X"></a>
+        </div>
+        <div>
+            <select id="language-selector">
+                <option value="es">
+                    Español
+                </option>
+                <option value="en">
+                    English
+                </option>
+            </select>
+        </div>
+    </footer>
+    <script href="../js/carrousel.js"></script>
+</body>
+
+</html>
