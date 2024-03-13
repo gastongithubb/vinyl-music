@@ -90,7 +90,8 @@ form {
     position: absolute;
     top: 4.85rem;
     left: 2rem;
-    font-size: 1.25rem;
+    font-family: 'gotham';
+    font-size: 1.15rem;
     width: 90%;
     color: #fff;
     z-index: 2;
@@ -100,9 +101,8 @@ form {
     position: absolute;
     left: 28.125rem;
     top: 12%;
-    background-color: none;
+    color: #000;
     font-size: 1.25rem;
-    color: #666
 }
 
 /* Estilos para el carrusel */
@@ -205,8 +205,8 @@ form {
     opacity: 25%;
     padding-top: 3vh;
     padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 4vh;
+    padding-right: 3.8vw;
+    padding-bottom: 3.77vh;
     border-radius: 0 0 30px 30px;
 }
 
@@ -235,8 +235,9 @@ form {
 .playlist-text {
     position: absolute;
     background-color: none;
-    top: 65%;
+    top: 98vh;
     left: 5%;
+    color: #000;
 }
 
 .playlist-img {
@@ -244,29 +245,17 @@ form {
     position: absolute;
     padding: 2%;
     margin: 3%;
-    background-color: lightgray;
     border-radius: 30px;
-    top: 900vh;
-    height: 158px;
+    top: 100vh;
+    width: 95vw;
 }
 
-/* Estilos para el pie de página */
-footer {
-    background-color: #f2f2f2;
-    padding: 10px;
-    text-align: center;
-}
+.playlist-img img {
+    width: 9rem;
+    height: 10rem;
+    padding: .4375rem;
+    border-radius: 30px;
 
-.social-icons {
-    margin-top: 10px;
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-}
-
-.social-icons img {
-    height: 30px;
-    width: 30px;
 }
 
 /* Estilos para el álbum del reproductor */
@@ -504,7 +493,6 @@ main {
 
 main h2 {
     font-family: 'Gotham';
-    color: #fff;
 }
 
 main p {
@@ -536,4 +524,24 @@ main p {
     z-index: 2;
     background-color: #fff;
     border-radius: 40
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50vh;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icons img {
+    height: 30px;
+    width: 30px;
 }
