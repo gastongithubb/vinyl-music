@@ -82,14 +82,14 @@ form {
 
 .weekly-imagen img {
     border-radius: 30px;
-    max-height: 400px;
+    max-height: 500px;
 }
 
 /* Estilos para el texto semanal y de nuevos lanzamientos */
 .weekly-text {
     position: absolute;
-    top: 4.85rem;
-    left: 2rem;
+    top: 6.4rem;
+    left: 2.5rem;
     font-family: 'gotham';
     font-size: 1.15rem;
     width: 90%;
@@ -99,24 +99,28 @@ form {
 
 .new-text {
     position: absolute;
-    left: 28.125rem;
+    left: 34rem;
     top: 12%;
     color: #000;
     font-size: 1.25rem;
 }
 
 /* Estilos para el carrusel */
+/* Estilos para el carrusel */
 .carousel {
     position: absolute;
-    margin-top: -23.5rem;
-    margin-left: 37vw;
+    margin-top: -29rem;
+    margin-left: 37.5vw;
     background-color: #D7D8DC;
     border-radius: 20px;
 }
 
 .slide {
     display: inline-block;
-    margin-left: 6vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3vh;
+    margin-right: 5vh;
 }
 
 .slide img {
@@ -152,20 +156,20 @@ form {
     filter: invert();
 }
 
-/* Estilos para las imágenes y textos de gráficos y éxitos */
+/* Estilos para las imágenes y textos de charts y hits */
 .img-charts {
     display: inline-flex;
     position: absolute;
     background-color: #B386FD;
     border-radius: 10%;
     left: 38%;
-    top: 12.5rem;
+    top: 17rem;
 }
 
 .charts-text {
     position: absolute;
     left: 40%;
-    top: 13rem;
+    top: 18rem;
     z-index: 2;
     font-size: 1.5rem;
     color: #FFFFFF;
@@ -178,14 +182,14 @@ form {
     z-index: 1;
     background-color: #B1F041;
     border-radius: 30px;
-    left: 59%;
-    top: 12.5rem;
+    left: 58.5%;
+    top: 16.8rem;
 }
 
 .hits-text {
     position: absolute;
     left: 61%;
-    top: 13rem;
+    top: 18rem;
     font-family: 'Gotham';
     font-size: 1.5rem;
     color: #FFFFFF;
@@ -196,7 +200,7 @@ form {
 .radio-doja-text {
     position: absolute;
     left: 79%;
-    top: 26rem;
+    top: 29.3rem;
     z-index: 3;
     font-family: 'GothamLight';
     font-size: .6875rem;
@@ -205,7 +209,7 @@ form {
     opacity: 25%;
     padding-top: 3vh;
     padding-left: 5vw;
-    padding-right: 3.8vw;
+    padding-right: 3.2vw;
     padding-bottom: 3.77vh;
     border-radius: 0 0 30px 30px;
 }
@@ -217,14 +221,14 @@ form {
     border-radius: 80%;
     z-index: 2;
     left: 81.5%;
-    top: 15rem;
+    top: 18rem;
 }
 
 .doja-cat-img-eclipse {
     position: absolute;
     z-index: 1;
     left: 79%;
-    top: 12.6rem;
+    top: 16.7rem;
 }
 
 .doja-cat-img-eclipse img {
@@ -235,7 +239,7 @@ form {
 .playlist-text {
     position: absolute;
     background-color: none;
-    top: 98vh;
+    top: 87vh;
     left: 5%;
     color: #000;
 }
@@ -244,14 +248,15 @@ form {
     display: inline-flex;
     position: absolute;
     padding: 2%;
-    margin: 3%;
+    margin: 1%;
     border-radius: 30px;
-    top: 100vh;
-    width: 95vw;
+    top: 91vh;
+    width: 97vw;
+    background-color: #333;
 }
 
 .playlist-img img {
-    width: 9rem;
+    width: 9.3rem;
     height: 10rem;
     padding: .4375rem;
     border-radius: 30px;
